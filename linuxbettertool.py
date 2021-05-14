@@ -14,7 +14,7 @@ def update():
 def power():
     os.system('sudo shutdown now')
 def restart():
-    os.system('sudo restart now')
+    os.system('sudo reboot now')
 def learn_more():
     webbrowser.open("https://sites.google.com/view/learn-more-1/home")
 B = tk.Button(root, text ="Hello", command = helloCallBack)
